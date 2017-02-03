@@ -8,10 +8,7 @@ sys.path.append(cwd)
 # print(sys.path)
 
 # Test the module: generate_list
-from random import randint
-r = randint (0,1000)
+from generate_list import printIt
+for num in range(0,1000):
+    printIt()
 
-from generate_list import printIt()
-printIt()
-
-r
